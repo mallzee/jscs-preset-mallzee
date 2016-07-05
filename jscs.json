@@ -1,0 +1,18 @@
+{
+  "preset": "airbnb",
+  "requireTrailingComma": false,
+  "requireSpacesInFunction": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInAnonymousFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+  },
+  "requireCamelCaseOrUpperCaseIdentifiers": null,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInFunctionDeclaration": null,
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "excludeFiles": ["src/lib/**"],
+  "maximumLineLength": false
+}

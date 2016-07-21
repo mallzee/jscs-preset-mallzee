@@ -1,14 +1,14 @@
 {
   "name": "jscs-preset-mallzee",
-  "version": "1.0.0",
   "description": "Common JSCS config file for Mallzee",
   "main": "jscs.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mallzee/jscs-preset-mallzee.git"
+    "url": "https://github.com/mallzee/jscs-preset-mallzee.git"
   },
   "keywords": [
     "jscs"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mallzee/jscs-preset-mallzee/issues"
   },
-  "homepage": "https://github.com/mallzee/jscs-preset-mallzee#readme"
+  "homepage": "https://github.com/mallzee/jscs-preset-mallzee#readme",
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
 }

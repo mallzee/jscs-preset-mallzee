@@ -3,7 +3,7 @@
   "description": "Common JSCS config file for Mallzee",
   "main": "jscs.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jsonlint -q jscs.json",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mallzee/jscs-preset-mallzee#readme",
   "devDependencies": {
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "jsonlint": "^1.6.2"
   }
 }
